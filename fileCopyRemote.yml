@@ -1,0 +1,5 @@
+- name: Make File demonstration 
+  file: 
+    path: "/tmp/{{ VAR_FILE }}/sample.txt"
+    state: touch 
+    
